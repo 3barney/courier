@@ -696,7 +696,7 @@ function getSelected(opt)
           <tr>
             <td align="right">&nbsp;</td>
             <td>&nbsp;</td>
-            <td><input name="Submit" type="submit" onClick="MM_validateForm('senderidno','','RisNum','receiveridno','','RisNum','Shippername','','R','Shipperphone','','R','Receivername','','R','Receiverphone','','R','ConsignmentNo','','R','Weight','R','R','Invoiceno','','R','Qnty','','RisNum','Totalfreight','','R','Pickuptime','','R','Shipperaddress','','R','Comments','','R','Weight','','R','Totalfreight','','R');return document.MM_returnValue" value="Add Courier"></td>
+            <td><input name="Submit" type="submit" onClick="MM_validateForm('senderidno','','RisNum','receiveridno','','RisNum','Shippername','','R','Shipperphone','','R','Receivername','','R','Receiverphone','','R','ConsignmentNo','','R','Weight','R','R','Invoiceno','','R','Qnty','','RisNum','Totalfreight','','R','Pickuptime','','R','Shipperaddress','','R','Comments','','R','Weight','','R','Totalfreight','','R','price','', 'RisNUM',);return document.MM_returnValue" value="Add Courier"></td>
           </tr>
         </tbody></table></td>
       </tr>
