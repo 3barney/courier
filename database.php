@@ -3,8 +3,8 @@
 
 // database connection config
 $dbHost = 'localhost';
-$dbUser = 'root';
-$dbPass = '195960';
+$dbUser = 'dbuser';
+$dbPass = '*****';
 $dbName = 'courier_db';
 
 $dbConn = mysql_connect ($dbHost, $dbUser, $dbPass) or die ('MySQL connect failed. ' . mysql_error());
