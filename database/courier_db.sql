@@ -25,6 +25,12 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Table structure for table `tbl_courier`
 --
 
+/* DROP AND CREATE NEW DB IF IT DOESNT EXIXST*/
+
+DROP TABLE IF NOT EXISTS 'courier_db';
+CREATE database 'courier_db' IF NOT EXIXST;
+
+
 CREATE TABLE IF NOT EXISTS `tbl_courier` (
   `cid` int(10) NOT NULL auto_increment,
   `cons_no` varchar(20) NOT NULL,
